@@ -4,18 +4,14 @@ from tkinter import messagebox
 from random import choice, randint, shuffle
 from ctypes import windll
 
-# makes everything sharp on certain monitors -- comment this out if it makes things worse
+# makes everything sharp on certain monitors -- comment the line below if it makes things worse
 windll.shcore.SetProcessDpiAwareness(1)
 
 BG_COLOR = "#F2F2F2"
-x = 5
-y = 5
 email = "name@email.com"
 
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
-
-# This is a refactor of the password generator built on Day 5
 
 def generate_password():
     letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
