@@ -8,7 +8,6 @@ from ctypes import windll
 windll.shcore.SetProcessDpiAwareness(1)
 
 BG_COLOR = "#F2F2F2"
-# "#F5EDDC"
 x = 5
 y = 5
 email = "name@email.com"
@@ -67,7 +66,7 @@ window.title("Password Manager")
 window.config(padx=50, pady=50, bg=BG_COLOR)
 
 canvas = tk.Canvas(width=200, height=200, bg=BG_COLOR, highlightthickness=0)
-logo_img = tk.PhotoImage(file="logo.png")
+logo_img = tk.PhotoImage(file="images/logo.png")
 canvas.create_image(100, 100, image=logo_img)  # x, y, image
 canvas.grid(row=0, column=1)
 
