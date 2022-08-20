@@ -1,6 +1,6 @@
 # Simple-Password-Manager
 
-This password manager was built as part of an exercise from a Udemy course on Python. The primary purpose was to learn Tkinter. 
+This password manager was built as part of an exercise from a Udemy course on Python. The primary purpose was to learn Tkinter. The pyperclip submodule is used to automatically copy generated passwords to the clipboard.
 
 ---
 **I do not recommend using this to manage passwords. This program stores passwords in a plain text file that is generated when the first password is saved. Anyone with access to the text file can view the saved passwords. This is not secure.** 
