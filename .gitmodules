@@ -1,0 +1,3 @@
+[submodule "pyperclip"]
+	path = pyperclip
+	url = git@github.com:SentientCyborg/pyperclip.git
